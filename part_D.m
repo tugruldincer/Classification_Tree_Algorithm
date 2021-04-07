@@ -1,5 +1,3 @@
-%Suleyman_Tugrul_Dincer_ 209535
-%Computing_Assignment_4
 clear all
 data = readtable('FlightDelays.xls','basic',true);
 data(:,[3,6,7,12,14,15])=[];
